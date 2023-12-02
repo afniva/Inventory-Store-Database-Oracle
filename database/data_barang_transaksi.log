@@ -1,0 +1,19 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Ming Jul 3 17:25:26 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "MBD"."SYS_EXPORT_TABLE_01":  mbd/******** TABLES=barang,transaksi1 DIRECTORY=backup_dir DUMPFILE=data_barang_transaksi.dmp logfile=data_barang_transaksi.log 
+Estimate in progress using BLOCKS method...
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 64 KB
+Processing object type TABLE_EXPORT/TABLE/TABLE
+. . exported "MBD"."BARANG"                              6.460 KB       5 rows
+. . exported "MBD"."TRANSAKSI1"                              0 KB       0 rows
+Master table "MBD"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for MBD.SYS_EXPORT_TABLE_01 is:
+  D:\APP\TABLE_LEVEL\DATA_BARANG_TRANSAKSI.DMP
+Job "MBD"."SYS_EXPORT_TABLE_01" successfully completed at 17:25:47
